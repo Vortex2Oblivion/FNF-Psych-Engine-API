@@ -64,12 +64,12 @@ jobs:
             chmod +x ./libraries.sh
             ./libraries.sh
             haxelib list      
-      - name: Create Documentation Site 🌐
+      - name: Create Documentation Site
         run: |
-            chmod +x build.sh
-            build.sh
+            chmod +x ./build.sh
+            ./build.sh
       
-      - name: github-actions deploy 🚀
+      - name: github-actions deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: pages # The folder the action should deploy.
