@@ -1,4 +1,5 @@
 mkdir .haxelib
+
 haxelib --always install dox
 haxelib --always install flixel 5.6.1
 haxelib --always install flixel-addons 3.2.2
