@@ -21,13 +21,13 @@
 --define HSCRIPT_ALLOWED
 --define MODS_ALLOWED
 --define CRASH_HANDLER
+--define VIDEOS_ALLOWED
 --define DISCORD_DISABLE_IO_THREAD
 --define NO_PRECOMPILED_HEADERS
 --define HXVLC_NO_SHARE_DIRECTORY
 --define HXC_DEBUG_TRACE
 --define FLX_NO_FOCUS_LOST_SCREEN
---define FLX_NO_DEBUG
---define hscriptPos
+--define FLX_NO_DEBUG--define hscriptPos
 
 --macro lime._internal.macros.DefineMacro.run()
 --macro openfl.utils._internal.ExtraParamsMacro.include()
